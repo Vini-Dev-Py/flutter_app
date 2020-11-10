@@ -10,6 +10,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+import 'package:flutter_app/Pages/Pagamentos.dart';
+
 void main() {
   runApp(MaterialApp(
     title: 'Ecommerce',
@@ -159,7 +161,7 @@ class _MyHomePageState extends State<MyHomePage>
       backgroundColor: const Color(0xffefefef),
       body: TabBarView(controller: tabController ,children: <Widget>[
         Container(),
-        Container(),
+        MyListaDePagamentos(),
         Container()
       ]),
       bottomNavigationBar: Bottom_Navigation_Bar,
