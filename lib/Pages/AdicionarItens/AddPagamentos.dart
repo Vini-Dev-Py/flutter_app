@@ -164,7 +164,7 @@ class _AddPagamentosState extends State<AddPagamentos> {
                 },
                 child: Text('Criar Pagamento'),
                 textColor: Colors.white,
-                color: Colors.blueAccent,
+                color: const Color(0xffe68da4),
               )
             ],
           ),
